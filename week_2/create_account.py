@@ -22,3 +22,7 @@ with open("account_details.json","w") as file:
     data=details
     json_data=json.dump(data,file)
 file.close()
+print(file)
+# with open("second_detail.json","w") as secondfile:
+#     data=json.load(file)
+#     json_data=json.dump(data,secondfile)
