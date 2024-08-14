@@ -10,11 +10,10 @@ class Faculties(unn.UnnBoardMembers):
     def can_conduct_election(self):
         return f"Each faculties can conduct election through the {self.faculty_dean}"
     
+    
+    
     def can_give_school_fees_receipt(self):
         return f"{self.bursar} can convert school fees receipt"
     
     def can_assign_lecturer(self):
         return f"Each departments have a specific number of lecturers"
-    
-    def must_be_a_student_or_worker(self):
-        return f"Is either one is a student or a worker 1"

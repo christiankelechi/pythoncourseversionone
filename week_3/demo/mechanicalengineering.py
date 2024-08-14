@@ -18,6 +18,3 @@ class MechanicalEngineering(fa.Faculties):
     
     def sum_of_all_students(self):
         return f" Total number of {self.students} equal to 500"
-    
-    def must_be_a_student_or_worker(self):
-        return f"Is either one is a student or a worker 2"
