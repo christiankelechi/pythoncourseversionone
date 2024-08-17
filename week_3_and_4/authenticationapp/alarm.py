@@ -14,17 +14,17 @@ def runAlarm():
 
     while datetime.datetime.now() < incremented_time:
         time.sleep(1)
-    siren_sound = "week_3/policealarm.wav" 
+    siren_sound = "week_3_and_4/policealarm.wav" 
     end_time = datetime.datetime.now() + datetime.timedelta(seconds=60)
     while datetime.datetime.now() < end_time:
         winsound.PlaySound(siren_sound, winsound.SND_FILENAME)
 
     print(end_time)
     
-face_book=input("Type your facebook password: ")
+# face_book=input("Type your facebook password: ")
 
-if face_book=="1234":
-    print("welcome to facebook, you can access your account")
+# if face_book=="1234":
+#     print("welcome to facebook, you can access your account")
     
-else:
-    runAlarm()
+# else:
+#     runAlarm()
